@@ -2,8 +2,8 @@
 SAML Extension for Magento2 which adds support to prevent Replay Attacks
 
 It requires any of the following magento extensions:
-- https://commercemarketplace.adobe.com/sixtomartin-onelogin-module-saml2.html
-- https://commercemarketplace.adobe.com/sixtomartin-onelogin-module-saml2-extend.html
+- https://commercemarketplace.adobe.com/sixtomartin-onelogin-module-saml2.html (requires version >= 1.11.0)
+- https://commercemarketplace.adobe.com/sixtomartin-onelogin-module-saml2-extend.html (requires version >= 1.11.0)
 
 In order to install it via composer, execute:
 
