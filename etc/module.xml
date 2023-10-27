@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * SAML Extension for Magento2 which adds support to prevent Replay Attacks
+ *
+ * @package     Pitbulk_Antireplay
+ * @copyright   Copyright (c) 2023 Sixto Martin Garcia (http://saml.info)
+ * @license     Commercial
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Pitbulk_Antireplay" setup_version="1.0.0">
+        <sequence>
+	    <module name="Magento_Directory" />
+            <module name="Magento_Config" />   
+	    <module name="Pitbulk_SAML2" />
+        </sequence>
+    </module>
+</config>

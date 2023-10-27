@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="pitbulk_saml2_assertion_processed">
+	<observer name="AssertionProcessedObserver" instance="Pitbulk\SAML2\Observer\AssertionProcessedObserver" disabled="true" />
+	<observer name="PreventReplayAttacksObserver" instance="Pitbulk\Antireplay\Observer\PreventReplayAttacksObserver" />
+    </event>
+</config>
