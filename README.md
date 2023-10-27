@@ -8,7 +8,7 @@ It requires any of the following magento extensions:
 In order to install it via composer, execute:
 
 ```
-composer require sixtomartin/onelogin-module-saml2-antireplay
+composer require iamdigitalservices/onelogin-module-saml2-antireplay
 ```
 
 Then execute:
