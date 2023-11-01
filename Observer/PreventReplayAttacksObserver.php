@@ -93,9 +93,9 @@ class PreventReplayAttacksObserver implements ObserverInterface
                 Utils::redirect($redirectTo);
             } else {
                 // Register the Assertion ID to prevent reuse
-    		        $assertion = $this->_assertionFactory->create();
+                $assertion = $this->_assertionFactory->create();
                 $assertion->setAssertionId($assertionId);
-    		        $this->_assertionRepository->save($assertion);
+                $this->_assertionRepository->save($assertion);
                 $this->logger->debug("Assertion ". $assertionId ." validated and processed.");
             }
         }
